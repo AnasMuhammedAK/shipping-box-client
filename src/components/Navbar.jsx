@@ -104,7 +104,7 @@ function Navbar() {
                         <div className="mt-6 p-4">
                             <ul className="flex flex-col space-y-6">
                                 <li>
-                                    <Link to={""}  className="dark:text-white flex items-center justify-between hover:underline text-base text-gray-800 focus:outline-none border-none rounded-lg py-2 px-2 focus:ring-1 focus:ring-gray-800">
+                                    <Link to={"/"}  className="dark:text-white flex items-center justify-between hover:underline text-base text-gray-800 focus:outline-none border-none rounded-lg py-2 px-2 focus:ring-1 focus:ring-gray-800">
                                         Home
                                         <div>
                                             <svg className="fill-stroke text-black dark:text-white" width={12} height={12} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -114,7 +114,7 @@ function Navbar() {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to={""}  className="dark:text-white flex items-center justify-between hover:underline text-base text-gray-800 focus:outline-none focus:ring-2 border-none rounded-lg py-2 px-2 focus:ring-gray-800">
+                                    <Link to={"/form"}  className="dark:text-white flex items-center justify-between hover:underline text-base text-gray-800 focus:outline-none focus:ring-2 border-none rounded-lg py-2 px-2 focus:ring-gray-800">
                                         Form
                                         <div>
                                             <svg className="fill-stroke text-black dark:text-white" width={12} height={12} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -124,7 +124,7 @@ function Navbar() {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to={""}  className="dark:text-white flex items-center justify-between hover:underline text-base text-gray-800 focus:outline-none focus:ring-2 border-none rounded-lg py-2 px-2 focus:ring-gray-800">
+                                    <Link to={"/table"}  className="dark:text-white flex items-center justify-between hover:underline text-base text-gray-800 focus:outline-none focus:ring-2 border-none rounded-lg py-2 px-2 focus:ring-gray-800">
                                         Table
                                         <div>
                                             <svg className="fill-stroke text-black dark:text-white" width={12} height={12} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
